@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", serif;
+
+}
+body{
+    background-color: white;
+    display: flex;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+}
+.main{
+     background-color: #ffffff;
+     margin: 100px;
+    /* width: 80vh; */
+    /* margin: 40px;
+    padding:25px; */
+}
+.main .header{
+    text-align: center;
+}
+.header h2{
+    font-size: 31px;
+    opacity: 0.6;
+}
+.sub-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80vw;
+    margin:40px;
+}
+.cardcenter{
+    margin: auto 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+.card{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* align-items: center; */
+    width:300px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px hsl(234, 12%, 34%, 0.2) ;
+}
+.card .picture{
+    display: flex;
+    justify-content: end;
+    margin:10px;
+}
+.supervisor{
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+.team{
+    border-top: 3px solid hsl(358,41%,58%);
+}
+.karma{
+    border-top: 3px solid hsl(36,90%,77%);
+
+}
+.calc{
+    border-top: 3px solid hsl(205,100%,82%);
+}
